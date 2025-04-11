@@ -18,7 +18,7 @@ export default function HackathonWebsite() {
                 <a href="#about" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">About</a>
                 <a href="#prizes" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">Prizes</a>
                 <a href="#schedule" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">Schedule</a>
-                {/* <a href="#register" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">Register</a> */}
+                <a href="#register" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">Register</a>
               </div>
             </div>
             <div className="md:hidden">
@@ -45,7 +45,7 @@ export default function HackathonWebsite() {
               <a href="#about" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">About</a>
               <a href="#prizes" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Prizes</a>
               <a href="#schedule" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Schedule</a>
-              {/* <a href="#register" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Register</a> */}
+              <a href="#register" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">Register</a>
             </div>
           </div>
         )}
@@ -185,12 +185,13 @@ export default function HackathonWebsite() {
 
           <div className="mt-10 max-w-xl mx-auto">
             <div className="mt-8 text-center">
-              <button
+              <a
+                href="https://forms.gle/HaA8tcajsRMv9BEK8"
                 type="button"
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
               >
                 Register Now
-              </button>
+              </a>
               <p className="mt-2 text-sm text-gray-500">Registration closes one week before the event</p>
             </div>
           </div>
